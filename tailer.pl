@@ -6,8 +6,6 @@ use strict;
 
 BEGIN{unshift(@INC, "../lib");unshift(@INC, "./");};
 
-#"/var/log/apache2/error_log.fciliberti.sauron.com.ar"
-
 my $archivo = shift();
 
 die "Ingrese archivo.\n" unless($archivo);
